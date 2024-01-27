@@ -60,6 +60,12 @@ public class Main {
         System.out.println("1 - Bubble Sort");
         System.out.println("2 - Selection Sort");
         System.out.println("3 - Insertion Sort");
+        System.out.println("4 - Merge Sort");
+        System.out.println("5 - Heap Sort");
+        System.out.println("6 - Quick Sort");
+        System.out.println("7 - Bucket Sort");
+        System.out.println("8 - Radix Sort");
+        System.out.println("9 - Counting Sort");
     }
 
     }
