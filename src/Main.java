@@ -36,6 +36,19 @@ public class Main {
                 insert.insertionSort(array);
                 break;
 
+            case 4:
+                MergeSort merge = new MergeSort();
+                System.out.println();
+                merge.printMessage();
+                merge.mergeSort(array);
+                break;
+
+            case 5:
+                HeapSort heap = new HeapSort();
+                System.out.println();
+                heap.heapSort(array);
+                break;
+
             default:
                 System.out.println("The proper option was not selected");
 
