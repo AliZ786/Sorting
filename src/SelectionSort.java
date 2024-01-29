@@ -1,5 +1,5 @@
 public class SelectionSort {
-    public void selectionSort(int [] arr){
+    public void selectionSort(int[] arr){
         int n = arr.length;
         System.out.println("Applying selection sort....");
 

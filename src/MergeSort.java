@@ -5,7 +5,7 @@ public class MergeSort {
     public void printMessage(){
         System.out.println("Applying Merge Sort...");
     }
-    public void mergeSort(int [] arr){
+    public void mergeSort(int[] arr){
         int n = arr.length;
 
         if (n < 2){
